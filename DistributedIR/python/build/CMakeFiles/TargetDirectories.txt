@@ -1,0 +1,3 @@
+/mnt/e/CodeHouse/hdu-framework/framework/ccsrc/DistributedIR/python/build/CMakeFiles/rebuild_cache.dir
+/mnt/e/CodeHouse/hdu-framework/framework/ccsrc/DistributedIR/python/build/CMakeFiles/edit_cache.dir
+/mnt/e/CodeHouse/hdu-framework/framework/ccsrc/DistributedIR/python/build/CMakeFiles/_graph.dir

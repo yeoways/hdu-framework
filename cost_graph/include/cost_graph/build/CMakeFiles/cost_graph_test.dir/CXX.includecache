@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/e/CodeHouse/hdu-framework/framework/ccsrc/cost_graph/include/cost_graph/cost_graph.hpp
+vector
+-
+string
+-
+map
+-
+algorithm
+-
+node.hpp
+/mnt/e/CodeHouse/hdu-framework/framework/ccsrc/cost_graph/include/cost_graph/node.hpp
+graph.hpp
+/mnt/e/CodeHouse/hdu-framework/framework/ccsrc/cost_graph/include/cost_graph/graph.hpp
+util.hpp
+/mnt/e/CodeHouse/hdu-framework/framework/ccsrc/cost_graph/include/cost_graph/util.hpp
+
+/mnt/e/CodeHouse/hdu-framework/framework/ccsrc/cost_graph/include/cost_graph/cost_graph_test.cpp
+cost_graph.hpp
+/mnt/e/CodeHouse/hdu-framework/framework/ccsrc/cost_graph/include/cost_graph/cost_graph.hpp
+iostream
+-
+cstdio
+-
+

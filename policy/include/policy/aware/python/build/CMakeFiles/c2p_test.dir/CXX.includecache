@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/e/CodeHouse/hdu-framework/framework/ccsrc/policy/include/policy/aware/python/c2p_test.cpp
+pybind11/pybind11.h
+-
+pybind11/embed.h
+-
+iostream
+-
+

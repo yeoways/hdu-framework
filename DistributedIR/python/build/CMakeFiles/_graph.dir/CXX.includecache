@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/e/CodeHouse/hdu-framework/framework/ccsrc/DistributedIR/python/graph.cc
+pybind11/pybind11.h
+-
+pybind11/stl.h
+-
+DistributedIR/graph.hpp
+-
+

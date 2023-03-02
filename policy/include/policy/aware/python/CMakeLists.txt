@@ -1,0 +1,17 @@
+find_package(pybind11 CONFIG REQUIRED)
+include_directories(${pybind11_INCLUDE_DIRS})
+
+add_executable(c2p_test c2p_test.cpp)
+target_link_libraries(c2p_test PRIVATE pybind11::embed)
+target_link_libraries(c2p_test PRIVATE pybind11::pybind11)
+
+file(COPY ${CMAKE_CURRENT_SOURCE_DIR}/c2p_test.py DESTINATION ${CMAKE_SOURCE_DIR}/build/ccsrc/policy/include/policy/aware/python)
+file(COPY ${CMAKE_CURRENT_SOURCE_DIR}/py_input.py DESTINATION ${CMAKE_SOURCE_DIR}/build/ccsrc/policy/include/policy/aware/python)
+file(COPY ${CMAKE_CURRENT_SOURCE_DIR}/pp_item.py DESTINATION ${CMAKE_SOURCE_DIR}/build/ccsrc/policy/include/policy/aware/python)
+file(COPY ${CMAKE_CURRENT_SOURCE_DIR}/progressive_placer.py DESTINATION ${CMAKE_SOURCE_DIR}/build/ccsrc/policy/include/policy/aware/python)
+file(COPY ${CMAKE_CURRENT_SOURCE_DIR}/progressive_nn.py DESTINATION ${CMAKE_SOURCE_DIR}/build/ccsrc/policy/include/policy/aware/python)
+file(COPY ${CMAKE_CURRENT_SOURCE_DIR}/progressive_graph.py DESTINATION ${CMAKE_SOURCE_DIR}/build/ccsrc/policy/include/policy/aware/python)
+file(COPY ${CMAKE_CURRENT_SOURCE_DIR}/progressive_fnn.py DESTINATION ${CMAKE_SOURCE_DIR}/build/ccsrc/policy/include/policy/aware/python)
+file(COPY ${CMAKE_CURRENT_SOURCE_DIR}/util.py DESTINATION ${CMAKE_SOURCE_DIR}/build/ccsrc/policy/include/policy/aware/python)
+file(COPY ${CMAKE_CURRENT_SOURCE_DIR}/simulator.py DESTINATION ${CMAKE_SOURCE_DIR}/build/ccsrc/policy/include/policy/aware/python)
+# file(COPY ${CMAKE_CURRENT_SOURCE_DIR}/mp_progressive_nn.py DESTINATION ${CMAKE_SOURCE_DIR}/build/ccsrc/policy/include/policy/aware/python)
